@@ -26,18 +26,22 @@
             android:exported="false" > </activity>
         <activity
             android:name=".frame3"
-            android:exported="false" > </activity>
-        <activity
-            android:name=".frame2"
-            android:exported="false" > </activity>
-        <activity
-            android:name=".frame1"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".frame2"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".frame1"
+            android:exported="false">
+
         </activity>
     </application>
 
